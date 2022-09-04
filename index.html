@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomas Liberman</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- logo y nav -->
+    <header>
+        <h2 id="titulo">logo</h2>
+        <nav class="navbar">
+            <ul class="nav__ul">
+                <li class="navbar__items"><a href="./index.html">Home</a></li>
+                <li class="navbar__items"><a href="../pages/alojamientos.html">Alojamientos</a></li>
+                <li class="navbar__items"><a href="../pages/ofertas.html">Ofertas</a></li>
+                <li class="navbar__items"><a href="../pages/contacto.html">Contacto</a></li>
+                <li class="navbar__items"><a href="../pages/actividades.html">Actividades</a></li>
+            </ul>
+
+            <ul class="nav__responsive__ul">
+                <span class="nav__responsive__boton">☰</span>
+                <div class="nav__li__container">
+                    <li class="nav__responsive__li"><a href="./index.html">Home</a></li>
+                    <li class="nav__responsive__li"><a href="../pages/alojamientos.html">Alojamiento</a></li>
+                    <li class="nav__responsive__li"><a href="../pages/ofertas.html">Ofertas</a></li>
+                    <li class="nav__responsive__li"><a href="../pages/contacto.html">Contacto</a></li>
+                    <li class="nav__responsive__li"><a href="../pages/actividades.html">Actividades</a></li>
+                </div>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <!-- carta busqueda -->
+        <div class="section__busqueda">
+            <section>
+                <div class="contenedor">
+                    <div class="card">
+                        <h2 class="card__title">vuelos</h2>
+                        <form class="card__description" action="send.php" method="get" enctype="multipart/form-data">
+                            <div class="div__radio">
+                                <label for="ida">ida</label>
+                                <input type="radio" id="ida" name="viaje">
+                                <label for="vuelta">ida y vuelta</label>
+                                <input type="radio" id="vuelta" name="viaje">
+                            </div>
+                            <div class="div__form">
+                                <input type="text" placeholder="Origen">
+                                <input type="text" placeholder="Destino">
+                                <label for="fecha">Fecha ida</label>
+                                <input type="date" id="fecha">
+                                <label for="fecha2">Fecha vuelta</label>
+                                <input type="date" id="fecha2">
+                                <button class="card__button">Buscar</button>
+                            </div>
+                            
+                        </form>
+                        
+                    </div>
+    
+                </div>
+            </section>
+
+            <!-- travel sale -->
+
+           <section>
+                <div class="oferta">
+                    <img class="oferta__imagen" src="../img/oferta4.jpg" alt="">
+                    <img class="oferta__imagen" src="../img/oferta.jpg" alt="">
+                    <img class="oferta__imagen" src="../img/oferta3.jpg" alt="">
+                </div>
+           </section>
+
+        </div>
+
+
+        <!-- destinos mas buscados -->
+
+        <section class="section2">
+            <h2 class="titulo">Top destinos más buscados</h2>
+            <div class="cards">
+                    <div class="carta">
+                        <div class="card2">
+                            <img class="card2__imagen" src="../img/ny.jpg" alt="new York">
+                            <h4 class="card2__titulo">New York</h4>
+                            <p class="card2__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi nemo possimus laudantium voluptate dolore iusto impedit eos deleniti aperiam. Eligendi, excepturi! Fugiat vitae fugit consequuntur vel quisquam! Dolorum, cupiditate?</p>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <div class="card2">
+                            <img class="card2__imagen" src="../img/bariloche.jpg" alt="bariloche">
+                            <h4 class="card2__titulo">Bariloche</h4>
+                            <p class="card2__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi nemo possimus laudantium voluptate dolore iusto impedit eos deleniti aperiam. Eligendi, excepturi! Fugiat vitae fugit consequuntur vel quisquam! Dolorum, cupiditate?</p>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <div class="card2">
+                            <img class="card2__imagen" src="../img/LV.jpg" alt="Las Vegas">
+                            <h4 class="card2__titulo">Las Vegas</h4>
+                            <p class="card2__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi nemo possimus laudantium voluptate dolore iusto impedit eos deleniti aperiam. Eligendi, excepturi! Fugiat vitae fugit consequuntur vel quisquam! Dolorum, cupiditate?</p>
+                        </div>
+                    </div>
+
+                    <div class="carta">
+                        <div class="card2" id="miami">
+                            <img class="card2__imagen" src="../img/miami.jpg" alt="miami">
+                            <h4 class="card2__titulo">Miami</h4>
+                            <p class="card2__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi nemo possimus laudantium voluptate dolore iusto impedit eos deleniti aperiam. Eligendi, excepturi! Fugiat vitae fugit consequuntur vel quisquam! Dolorum, cupiditate?</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+       
+
+    </main>
+    <footer>
+        <h4>telefono:1112345678</h4>
+        <h4>mail:abcde@gmail.com</h4>
+        <h4>logo</h4>
+    
+    </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h2 id="titulo">logo</h2>
+        <nav class="navbar">
+            <ul>
+                <li class="navbar__items"><a href="../index/index.html">Home</a></li>
+                <li class="navbar__items"><a href="./alojamientos.html">Alojamientos</a></li>
+                <li class="navbar__items"><a href="./ofertas.html">Ofertas</a></li>
+                <li class="navbar__items"><a href="./contacto.html">Contacto</a></li>
+                <li class="navbar__items"><a href="./actividades.html">Actividades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- formulario contacto -->
+
+    <section>
+        <div class="contacto">
+            <h2 class="contacto__titulo">Ingresá tus datos</h2>
+            <form class="contacto__formulario" action="">
+                <label class="contacto__items" for="nombre">
+                    <input type="text" id="nombre" placeholder="nombre y apellido">
+                </label>
+                <label class="contacto__items" for="mail">
+                    <input type="email" id="mail" placeholder="Correo electrónico">
+                </label>
+                <label class="contacto__items" for="contraseña">
+                    <input type="password" id="contraseña" placeholder="Contraseña">
+                </label>
+                <select class="fondo" class="contacto__items" name="" id="">
+                    <option disabled selected>selecciona un pais</option>
+                    <option>ARGENTINA</option>
+                    <option>CHILE</option>
+                    <option>PARAGUAY</option>
+                    <option>BRASIL</option>
+                    <option>URUGUAY</option>
+                </select>
+                <label class="contacto__items" for="edad">Edad
+                    <input type="number" id="edad">
+                </label>
+                <label class="contacto__items" for="terminos"> terminos y condiciones
+                    <input type="checkbox" id="terminos">
+                </label>
+                <input type="submit" value="enviar" name="" id="enviar">
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,549 @@
+*{
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0;
+}
+
+/* barra navegación */
+
+header {
+    height: 85px;
+}
+
+.nav__responsive__ul {
+    display: none;
+}
+
+#titulo {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.navbar {
+    margin-left: 20px;
+}
+
+.navbar__items {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.navbar__items a:hover {
+    color: #4905c0;
+
+}
+
+.navbar__items a {
+    text-decoration: none;
+    color: #333236;
+    font-size: 20px;
+}
+
+/* carta busqueda */
+
+.section__busqueda {
+    height: 100vh;
+    background-color: #f4f3f9;
+}
+
+.contenedor {
+    height:220px;
+    text-align:center;
+    background-image: url(../img/violeta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+.card {
+    color: white;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    height: 150px;
+    background-color: #1f0749;
+    border-radius: 10px;
+}
+
+.card__button {
+    background-color: #c34619;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    width: 130px;
+    border: none;
+}
+
+.card__button:hover{
+    background-color: #933310;
+}
+
+.card__items{
+    display: block;
+}
+
+/* travel sale */
+
+.oferta {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 60px;
+    align-items: stretch;
+    width: 85%;
+    margin: 60px auto;
+    
+}
+
+.oferta__imagen {
+    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+}
+
+
+
+/* cartas viajes */
+
+.section2 {
+    background-color:#f4f3f9;
+    padding-bottom: 30px;
+    height: 100vh;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    gap: 80px;
+    height: 100%;
+    width: 85%;
+    margin: 20px auto;
+}
+
+.carta {
+    height: 100%;
+    width: 100%;
+}
+
+.card2 {
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#miami {
+    display: none;
+}
+
+.card2__imagen{
+    width: 100%; 
+    height: 60%;   
+}
+
+.card2__titulo {
+    font-size: 20px;
+    padding: 6px;
+}
+
+.titulo {
+ color: #333236;
+ margin-left: 100px;
+}
+
+.card2__parrafo {
+    padding: 6px;
+}
+
+/* cartas alojamiento */
+
+.card3 {
+    width: 90%;
+    background-color: #dddd;
+   margin-top: 20px;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.card3__imagen {
+    width: 15%;
+}
+
+.card__title {
+    text-align: center;
+}
+
+.card3__parrafo {
+    padding: 6px;
+
+}
+
+/* formulario de contacto */
+
+.contacto {
+    background-color: #371B58;
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.contacto__titulo{
+    color: white;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.contacto__items {
+    display: block;
+    margin: 20px;
+    color: white;
+    width: 150px;
+}
+
+.fondo{
+    background-color: #dddd;
+    margin-left: 40px;
+}
+
+#contraseña, #mail, #nombre, #edad 
+{
+    width: 400px;
+    background-color: white;
+    height: 50px;
+    text-align: center;
+}
+
+#enviar {
+    margin-left: 40px;
+}
+
+/* ofertas */
+
+.section__ofertas {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f3f9;
+}
+
+.aside {
+    width: 200px;
+    height: 300px;
+    margin-top: 250px;
+}
+
+.aside__titulo {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #333236;
+}
+
+.aside__card {
+    background-color: #ffff;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 300px;
+    border: solid 1px gray;
+}
+
+.ofertas__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5fr 5fr; 
+    row-gap: 200px;
+    column-gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ofertas {
+    background-color: #ffff;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+
+}
+
+.ofertas__imagen {
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ofertas__titulo {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: #333236;
+}
+
+.ofertas__parrafo {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.exclusiva {
+    padding: 6px;
+    margin-top: 40px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ofertas__precio {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h5 {
+    color:  crimson;
+    font-size: medium;
+    text-align: center;
+    border-top: solid 2px black;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+/* actividades */
+
+.contenedor__titulo {
+    color: white;
+    padding: 10px;
+}
+
+.contenedor__buscar {
+    height: 100px;
+    width: 70%;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 90px;
+}
+
+.boton {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: large;
+}
+
+/* responsive ipad y kindle */
+
+@media (max-width: 811px) {
+    .oferta {
+        display: none;
+    }
+    .card {
+        width: 100%;
+        height: 300px;
+    }
+
+    .card__description {
+        display: grid;
+        grid-column: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;    
+    }
+    .card__description input {
+        width: 200px;
+        text-align: center;
+        margin: auto;
+    }
+    .card__button {
+        margin: auto;
+    }
+
+    .titulo {
+        margin-top: -20px;
+    }
+
+    /* cartas */
+
+    .cards {
+        margin-top: -750px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    main {
+        background-color: #f4f3f9;
+    }
+
+    footer {
+        display: none;
+    }
+
+    /* ofertas */
+
+    .aside {
+        display: none;
+    }
+
+    .aside__card {
+        display: none;
+    }
+
+    .ofertas__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 70px;
+    }
+
+    #miami {
+        display: block;
+    }
+
+}
+
+/* responsive celulares */
+
+@media only screen and (max-width:500px) {
+
+    /* nav responsive */
+
+    #titulo {
+        display: none;
+    }
+
+    header {
+        background-color: #f4f3f9;
+        height: 150px;
+    }
+
+    .nav__ul {
+        display: none;
+    }
+
+    .nav__responsive__ul {
+        display: block;
+        list-style-type: none;
+        position: absolute;
+        width: 100%;
+        height: 37px;
+    }
+
+    .nav__responsive__li {
+        width: 100%;
+        padding: 6px;
+    }
+
+    .nav__responsive__li a {
+        text-decoration: none;
+        color: #333236;
+
+    }
+
+
+    nav {
+        height: 37px;
+        margin-right: 20px;
+        width: 100%;
+        background-color: #f4f3f9 ;
+    }
+
+    span {
+        font-size: 25px;
+        padding: 6px 20px;
+        float: right;
+        margin-right: 20px;
+        z-index: 100;
+    }
+
+    .nav__li__container {
+        position: relative;
+        top: -1000px;
+        height: calc(100vh - 64px);
+        transition: all 1s;
+        z-index: 1;
+    }
+
+    .nav__responsive__ul:hover > .nav__li__container {
+        top: 0px;
+    }
+
+    .nav__responsive__li:hover {
+        color: #4905c0;
+    }
+
+
+    .ofertas__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section__ofertas {
+        margin-top: 10px;
+    }
+
+    .contenedor {
+        background-image: none;
+        background-color: lightblue;
+        margin-top: 10px;
+    }
+
+    .card {
+        display: block;
+        width: 80%;
+        background-color: transparent;
+    }
+
+    .section__busqueda {
+        background-color: lightblue;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+   body {
+    background-color: lightblue;
+   }
+
+   form > input {
+    padding: 20px;
+    margin-top: 20px;
+   }
+
+   .card__button{
+    padding: 20px;
+    width: 150px;
+   }
+
+   .div__radio {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+   }
+
+   .div__form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+   }
+
+
+
+
+
+    
+}
+   

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- logo y nav -->
+    <header>
+        <h2 id="titulo">logo</h2>   
+        <nav class="navbar">
+            <ul>
+                <li class="navbar__items"><a href="../index/index.html">Home</a></li>
+                <li class="navbar__items"><a href="./alojamientos.html">Alojamientos</a></li>
+                <li class="navbar__items"><a href="./ofertas.html">Ofertas</a></li>
+                <li class="navbar__items"><a href="./contacto.html">Contacto</a></li>
+                <li class="navbar__items"><a href="./actividades.html">Actividades</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main>
+        <!-- formulario busqueda -->
+        <section>
+            <div class="contenedor">
+                <div class="card">
+                    <h2 class="card__title">Alojamientos</h2>
+                    <form class="card__description" action="send.php" method="get" enctype="multipart/form-data">
+                        <input type="text" placeholder="Destino">
+                        <label for="fecha">Desde</label>
+                        <input type="date" id="fecha">
+                        <label for="fecha2">Hasta</label>
+                        <input type="date" id="fecha2">
+                        <label for="numero">Habitaciones</label>
+                        <input type="number" id="numero">
+                        <button class="card__button">Buscar</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- cartas hoteles -->
+
+        <h2 class="card__title">Encontrá lo que buscas!</h2>
+
+        <div class="card3">
+            <img class="card3__imagen" src="../img/casas.jpg" alt="casa">
+            <p class="card3__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto itaque tenetur quam earum similique voluptas voluptatibus, perspiciatis amet repudiandae inventore dolorem ducimus cum libero at, odit nisi veniam necessitatibus beatae?</p>
+        </div>
+        <div class="card3">
+            <img class="card3__imagen" src="../img/hotel1.jpg" alt="hotel">
+            <p class="card3__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto itaque tenetur quam earum similique voluptas voluptatibus, perspiciatis amet repudiandae inventore dolorem ducimus cum libero at, odit nisi veniam necessitatibus beatae?</p>
+        </div>
+        <div class="card3">
+            <img class="card3__imagen" src="../img/depto.jpg" alt="departamento">
+            <p class="card3__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto itaque tenetur quam earum similique voluptas voluptatibus, perspiciatis amet repudiandae inventore dolorem ducimus cum libero at, odit nisi veniam necessitatibus beatae?</p>
+        </div>
+
+
+    </main>
+    
+
+
+
+<!-- pie de pagina -->
+   <footer>
+    <h4>telefono:1112345678</h4>
+    <h4>mail:abcde@gmail.com</h4>
+    <h4>logo</h4>
+   </footer>
+</body>
+</html>
