@@ -42,6 +42,16 @@ header {
     text-decoration: none;
     color: #333236;
     font-size: 20px;
+    animation: items 4s;
+
+}
+
+@keyframes items {
+    100% {
+        font-size: 40px;
+        color: orange;
+      }
+
 }
 
 /* carta busqueda */
@@ -159,6 +169,19 @@ header {
 .card2__parrafo {
     padding: 6px;
 }
+
+/* animaciones y transiciones */
+.card2 {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+.card2:hover {
+    height: 120%;
+    width: 120%;
+}
+  
 
 /* cartas alojamiento */
 
