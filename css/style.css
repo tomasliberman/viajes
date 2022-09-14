@@ -8,6 +8,7 @@
     padding: 20px;
 }
 
+
 .form-control {
     width: 200px;
     padding: 20px;
@@ -170,24 +171,6 @@
     padding-top: 15px;
    }
 
-   /* contactanos */
-
-   #exampleFormControlInput1,
-   #exampleFormControlTextarea1 {
-    padding: 10px;
-    margin-top: 0;
-    max-width: 200px;
-    max-height: 100px;
-    margin-left: 0;
-   }
-
-   .mb-3 {
-    margin-left: 20px;
-    margin-top: 20px;
-    display: flex;
-   }
-
-
 
    /* alojamientos */
 
@@ -210,6 +193,216 @@
     width: 100%;
    }
 
+   /* actividades */
+   .col-md-4 {
+    max-width: 500px;
+    max-height: 300px;
+    padding-right: 20px;
+    border-radius: 10px;
+    min-width: 350px;
+   }
+
+   .carta-actividades {
+    margin-top: 60px;
+    padding: 10px;
+    background-color: #f4f3f9;
+    border-radius: 10px;
+    border: solid 1px #333236;
+   }
+
+   .parrafo-container {
+    border-bottom: black 1px solid;
+    padding-top: 20px;
+    padding-bottom: 70px;
+   }
+
+   .shadow {
+    margin: auto;
+    height: 100vh;
+   }
+
+   /* contactanos */
+
+   .contactanos {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80vh;
+    margin: auto;
+    background-color: #f4f3f9;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 40px;
+    min-width: 300px;
+   }
+
+   #mensaje {
+    width: 80%;
+    max-height: 200px;
+    min-height: 150px;
+    margin-top: 20px;
+   }
+
+   .div-contactanos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+   }
+
+   .input-contactanos {
+    border: none;
+    border-bottom: solid #ffff 3px;
+    background-color: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: #333236;
+    width: 100%;
+    height: 30px;
+    transition: all 0.5s;
+   }
+
+   .input-contactanos:focus {
+    height: 50px;
+   }
+
+   .boton-contactanos {
+    width: 80%;
+    margin: auto;
+    padding: 6px;
+    background-color: #ffff;
+    border: none;
+    border-radius: 10px;
+    animation-name: slidelin;
+   }
+
+   .boton-contactanos:hover {
+    background-color: #e6e6fa;
+   }
+
+   .label-contactanos {
+    color: #ffff;
+   }
+
+   ::placeholder {
+    color: #ffff;
+
+   }
+
+   /* responsive */
+
+   .form-responsive, .text, .carousel-responsive {
+    display: none;
+   }
+
+   @media screen and (max-width:1100px) {
+    .form-general {
+        display: none;
+    }
+
+    .form-responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: -8px;
+    }
+
+    .text {
+        text-align: center;
+        background-color: lightblue;
+        color: #ffff;
+        padding: 7px;
+        display: block;
+    }
+
+    .form-control {
+        margin: 6px;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .first {
+        margin-top: 30px;
+    }
+
+    .btn {
+        margin-top: 10px;
+       height: 50px;
+       padding: 4px;
+       width: 100px;
+    }
+
+    .div-responsive {
+        height: 540px;
+    }
+
+    /* contactanos */
+
+    .contactanos {
+        height: 500px;
+    }
+
+    /* ofertas */
+
+    .aside {
+        display: none;
+    }
+
+    .ofertas__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+   }
+
+   @media screen and (max-width:450px) {
 
 
+    /* ofertas */
+    .aside {
+        display: none;
+    }
 
+    .ofertas__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    /* carousel */
+
+    .section2 {
+        display: none;
+    }
+
+    .carousel-responsive {
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .img-responsive {
+        width: 100%;
+        height: 400px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        filter: invert(108%);
+      }
+
+      /* actividades */
+
+      .carta-actividades {
+        display: flex;
+        flex-direction: column;
+      }
+    
+   }
+
+   

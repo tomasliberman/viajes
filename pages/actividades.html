@@ -42,44 +42,80 @@
     </header>
     <main>
         <!-- busqueda destino -->
-        <section class="section1 actividades bg-gradient">
-            <h3 class="text-white">Actividades para todas las edades</h3>
-            
-            <form action="" class="d-flex actividades flex-row mb-3 section1 bg-gradient" id="formulario">
-                <input class="form-control origen" type="text" placeholder="Origen...">
-                <input class="form-control destino" type="text" placeholder="Destino...">
-                <input class="form-control origen" type="date">
-                <input class="form-control destino" type="date">
-                <select class="form-select form-control">
-                    <option disabled selected>Habitaciones</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
-                  <button type="button" class="btn btn-danger">Buscar</button>
-            </form>
+        <div class="form-general">
+            <section class="bg-danger bg-gradient">
+                <h3 class="text-white">Top actividades</h3>
+                
+                <form class="d-flex form-responsive flex-row mb-3 bg-danger bg-gradient" id="formulario">
+                    <input class="form-control origen" type="text" placeholder="Origen...">
+                    <input class="form-control destino" type="text" placeholder="Destino...">
+                    <input class="form-control origen" type="date">
+                    <input class="form-control destino" type="date">
+                    <select class="form-select form-control">
+                        <option disabled selected>Adultos</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                      </select>
+                      <button type="button" class="btn btn-danger">Buscar</button>
+                </form>
+            </section>
+        </div>
 
-            
+            <h3 class="text bg-danger">Top Actividades</h3>
 
-        </section>
+            <div class="div-responsive bg-danger bg-gradient">
+                    <form action="" class="form-responsive">
+                        <input class="form-control first destino" type="text" placeholder="Destino...">
+                        <input class="form-control destino" type="date">
+                        <select class="form-select form-control">
+                            <option disabled selected>Adultos</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                        <button type="button" class="btn btn-dark">Buscar</button>
+                    </form>
+            </div>
         <!-- actividades -->
-        <section>
-            <div class="card3">
-                <img class="card3__imagen" src="../img/globo.jpg" alt="globo">
-                <p class="card3__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto itaque tenetur quam earum similique voluptas voluptatibus, perspiciatis amet repudiandae inventore dolorem ducimus cum libero at, odit nisi veniam necessitatibus beatae?</p>
+        <section class="container">
+            <div class="d-flex carta-actividades">
+                <img src="../img/barco.jpg" alt="" class="col-md-4">
+               <div>
+                <h2>Cruceros</h2>
+                <span>⭐⭐⭐⭐⭐</span>
+                <p class="parrafo-container">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A vel ab labore minus. Quam a numquam culpa? Aperiam, officiis quae. Numquam commodi rem odit possimus fugiat animi ea sapiente a.</p>
+                <h5>Desde $80.000</h5>   
+               </div>
             </div>
-            <div class="card3">
-                <img class="card3__imagen" src="../img/everest.jpg" alt="everest">
-                <p class="card3__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto itaque tenetur quam earum similique voluptas voluptatibus, perspiciatis amet repudiandae inventore dolorem ducimus cum libero at, odit nisi veniam necessitatibus beatae?</p>
+            <div class="d-flex carta-actividades">
+                <img src="../img/everest.jpg" alt="" class="col-md-4">
+               <div>
+                <h2>Escaladas</h2>
+                <span>⭐⭐⭐⭐</span>
+                <p class="parrafo-container">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A vel ab labore minus. Quam a numquam culpa? Aperiam, officiis quae. Numquam commodi rem odit possimus fugiat animi ea sapiente a.</p>
+                <h5>Desde $90.000</h5>   
+               </div>
             </div>
-            <div class="card3">
-                <img class="card3__imagen" src="../img/barco.jpg" alt="barco">
-                <p class="card3__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto itaque tenetur quam earum similique voluptas voluptatibus, perspiciatis amet repudiandae inventore dolorem ducimus cum libero at, odit nisi veniam necessitatibus beatae?</p>
+            <div class="d-flex carta-actividades">
+                <img src="../img/globo.jpg" alt="" class="col-md-4">                
+               <div>
+                <h2>Viajes en globo</h2>
+                <span>⭐⭐⭐⭐⭐</span>
+                <p class="parrafo-container">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A vel ab labore minus. Quam a numquam culpa? Aperiam, officiis quae. Numquam commodi rem odit possimus fugiat animi ea sapiente a.</p>
+                <h5>Desde $120.000</h5>   
+               </div>
             </div>
+            
         </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
