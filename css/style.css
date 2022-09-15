@@ -4,6 +4,11 @@
    padding: 0;
 }
 
+*::selection {
+    background-color: black;
+    color: #ffff;
+}
+
 .navbar {
     padding: 20px;
 }

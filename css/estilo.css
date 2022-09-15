@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+*::-moz-selection {
+  background-color: black;
+  color: white;
+}
+*::selection {
+  background-color: black;
+  color: white;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+*::-moz-selection {
+  background-color: black;
+  color: white;
+}
+*::selection {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=estilo.css.map */
