@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:wght@700&family=Roboto:wght@100&display=swap');
+
 *{
    margin: 0;
    box-sizing: border-box;
    padding: 0;
+   font-family: 'Libre Baskerville', serif;
 }
 
 *::selection {
@@ -12,7 +15,6 @@
 .navbar {
     padding: 20px;
 }
-
 
 .form-control {
     width: 200px;
@@ -51,6 +53,8 @@
     text-align: center;
     padding-top: 20px;
 }
+
+/* section 2 */
 
 .section2 {
     background-color: #e6e6fa;
@@ -174,28 +178,6 @@
     text-align: center;
     border-top: solid 2px black;
     padding-top: 15px;
-   }
-
-
-   /* alojamientos */
-
-   .alojamientos {
-    background-color: crimson;
-   }
-
-   .actividades {
-    background-color: deepskyblue;
-   }
-
-   .carta-acostada {
-    max-height: 200px;
-    max-width: 540px;
-    width: 1000px;
-   }
-
-   .rounded-start {
-    height: 100%;
-    width: 100%;
    }
 
    /* actividades */

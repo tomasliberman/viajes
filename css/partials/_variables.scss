@@ -1,20 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:wght@700&family=Roboto:wght@100&display=swap');
+
+$fontserif: 'Libre Baskerville', serif;
+
 $maincolor: #ffff;
-
-
-
-%boton {
-    padding: 20px;
-    height: 65.6px;
-    margin-top: 60px;
-    border-radius: 20px;
-
-    &:hover {
-        background-color: darkred;
-    }
-}
-
-$colores : (
-    'primary':#ffff,
-    'secondary':rgb(5, 5, 48),
-    'danger': red
-)
+$secondarycolor: rgb(5, 5, 48);
