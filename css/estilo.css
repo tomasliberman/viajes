@@ -17,7 +17,27 @@
 .navbar {
   padding: 20px;
 }
+.navbar .nav-item {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
+}
 
+@-webkit-keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .form-control {
   width: 200px;
   padding: 20px;
@@ -364,4 +384,27 @@
     display: flex;
     flex-direction: column;
   }
+}
+.footer {
+  height: 100px;
+  text-align: center;
+  padding: 30px;
+}
+
+.facebook, .whatsapp, .instagram {
+  color: blue;
+  margin: 30px;
+}
+.facebook:hover, .whatsapp:hover, .instagram:hover {
+  border-bottom: dashed 3px black;
+}
+
+.instagram {
+  color: red;
+  margin: 30px;
+}
+
+.whatsapp {
+  color: green;
+  margin: 30px;
 }/*# sourceMappingURL=estilo.css.map */

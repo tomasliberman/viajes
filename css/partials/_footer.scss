@@ -1,0 +1,33 @@
+$redes: (
+    facebook: blue,
+    instagram:red,
+    whatsapp:green,
+);
+
+.footer {
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.facebook {
+    color: blue;
+    margin: 30px;
+
+    &:hover {
+        border-bottom: dashed 3px black;
+    }
+   
+}
+
+.instagram {
+    color: red;
+    margin: 30px;
+    @extend .facebook
+}
+
+.whatsapp {
+    color: green;
+    margin: 30px;
+    @extend .facebook
+}
